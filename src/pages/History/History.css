@@ -1,0 +1,68 @@
+.history {
+    padding: 20px;
+    text-align: center;
+    background-color: white         ;
+    min-height: 100vh;
+    color: black;
+  }
+  
+  .history h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .history-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+  }
+  
+  .history-card {
+    position: relative;
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .history-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .history-poster {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+
+  .delete-button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: rgb(221, 43, 43);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    font-size: 14px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }  
+  
+  .history-title {
+    font-size: 1rem;
+    padding: 10px;
+    color: #333;
+  }
+
+  .delete-button:hover {
+    background-color: darkred;
+  }
+  
